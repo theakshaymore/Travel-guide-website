@@ -1,0 +1,50 @@
+.nav-wrapper {
+  background-color: white;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #6f4037;
+}
+
+.caption {
+  margin-top: 70px;
+}
+
+.move {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.move_img {
+  margin-top: 10px;
+}
+
+.parallax-container {
+  min-height: 280px;
+  height: auto;
+}
+
+.iconssf {
+  color: #0e76a8;
+}
+.iconssi {
+  color: #e1306c;
+}
+.iconsst {
+  color: #00acee;
+}
+
+.footer-one {
+  background-color: #6f4037;
+}
+.footer-two {
+  background-color: #462822;
+}
+
+.myim:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.1);
+}

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>traveLTheWorld</title>
+    <!-- Google Font Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon Link -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Materialize CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="fnavbar">
+      <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo" style="color: black">Travelers</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="#" style="color: black" onclick="toggleModal()">Home</a>
+            </li>
+            <li>
+              <a href="#" style="color: black" onclick="toggleModal()">About</a>
+            </li>
+            <li>
+              <a href="#" style="color: black" onclick="toggleModal()"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick="toggleModal()">Home</a></li>
+        <li><a href="#" onclick="toggleModal()">About</a></li>
+        <li><a href="#" onclick="toggleModal()">Contact us</a></li>
+      </ul>
+    </section>
+
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/main2.jpg" alt="img1" />
+            <div class="caption center-align white-text">
+              <h3>Travel</h3>
+              <h5 class="light.text-lighten-3">Through our website</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/main1.jpg" alt="img2" />
+            <div class="caption center-align white-text">
+              <h3>Travel</h3>
+              <h5 class="light.text-lighten-3">through our website</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/main3.jpg" alt="img3" />
+            <div class="caption center-align white-text">
+              <h3>Travel</h3>
+              <h5 class="light.text-lighten-3">through our website</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="descrip">
+      <div class="section white center">
+        <h2 class="header">Travel through our website</h2>
+        <div class="row container center">
+          <div class="col center l8 s12 move">
+            Man is a traveler by nature. He does not like to keep static at a
+            place for a long time. So, people like to visit new places whenever
+            they find time and opportunity. By traveling to new places we can
+            know new people and learn many new things. Travelling opens new
+            vistas of experience and understanding for us. When we go to a new
+            place all of our senses and instincts become awake.In such
+            circumstances, we can learn new things very easily. Everything seems
+            beautiful and sterling in a new place. With new scientific
+            inventions, the ways and means of traveling have changed
+            dramatically.
+          </div>
+          <div class="col center l4 s12 move_img">
+            <img
+              class="myim"
+              src="img/des.jpg"
+              alt="des"
+              style="object-fit: contain"
+              height="200"
+              width="auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fcards">
+      <div class="row" style="padding-left: 50px; padding-right: 50px">
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/barca.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Barcelona<i class="material-icons right">more_vert</i></span
+              >
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Barcelona<i class="material-icons right">close</i></span
+              >
+              <p>
+                Barcelona, the cosmopolitan capital of Spain’s Catalonia region,
+                is known for its art and architecture. The fantastical Sagrada
+                Família church and other modernist landmarks designed by Antoni
+                Gaudí dot the city.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/madrid.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Madrid<i class="material-icons right">more_vert</i></span
+              >
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Madrid<i class="material-icons right">close</i></span
+              >
+              <p>
+                Madrid, Spain's central capital, is a city of elegant boulevards
+                and expansive, manicured parks such as the Buen Retiro. It’s
+                renowned for its rich repositories of European art, including
+                the Prado Museum’s works by Goya, Velázquez and other Spanish
+                masters.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/munich3.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Munich<i class="material-icons right">more_vert</i></span
+              >
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Munich<i class="material-icons right">close</i></span
+              >
+              <p>
+                Munich, Bavaria’s capital, is home to centuries-old buildings
+                and numerous museums. The city is known for its annual
+                Oktoberfest celebration and its beer halls, including the famed
+                Hofbräuhaus, founded in 1589.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fcards">
+      <div class="row" style="padding-left: 50px; padding-right: 50px">
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/jaipur.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Jaipur<i class="material-icons right">more_vert</i></span
+              >
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Jaipur<i class="material-icons right">close</i></span
+              >
+              <p>
+                Jaipur is the capital of India’s Rajasthan state. It evokes the
+                royal family that once ruled the region and that, in 1727,
+                founded what is now called the Old City, or “Pink City” for its
+                trademark building color.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/bali.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Bali<i class="material-icons right">more_vert</i></span
+              >
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Bali<i class="material-icons right">close</i></span
+              >
+              <p>
+                Bali is an Indonesian island known for its forested volcanic
+                mountains, iconic rice paddies, beaches and coral reefs. The
+                island is home to religious sites such as cliffside Uluwatu
+                Temple
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/toronto.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Toronto<i class="material-icons right">more_vert</i></span
+              >
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Toronto<i class="material-icons right">close</i></span
+              >
+              <p>
+                Toronto, the capital of the province of Ontario, is a major
+                Canadian city along Lake Ontario’s northwestern shore. It's a
+                dynamic metropolis with a core of soaring skyscrapers, all
+                dwarfed by the iconic, free-standing CN Tower.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fparallex">
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/parallex3.jpg" /></div>
+      </div>
+    </section>
+
+    <section class="fabout">
+      <div class="section white center">
+        <div class="row container">
+          <h3 class="header">About Backend Squad🔥</h3>
+          <p class="grey-text text-darken-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
+            pariatur quo? Laudantium, numquam doloribus itaque eos, vel pariatur
+            ullam quos voluptatibus facere iure corrupti provident nemo quidem
+            doloremque, modi nam.
+          </p>
+          <a
+            href="#"
+            class="btn waves-effect waves-light"
+            style="background: #6f4037"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="fservices">
+      <div class="row" style="padding-left: 50px; padding-right: 50px">
+        <div class="col s12 l4 center" style="padding: 50px">
+          <i class="large material-icons iconssf">account_circle</i>
+          <h5>
+            <a
+              href="https://www.linkedin.com/in/akshay-more-275616177/"
+              class="btn waves-effect waves-light"
+              style="background: #0e76a8; border-radius: 10px"
+              >Linkedin</a
+            >
+          </h5>
+        </div>
+        <div class="col s12 l4 center" style="padding: 50px">
+          <i class="large material-icons iconssi">account_circle</i>
+          <h5>
+            <a
+              href="https://www.instagram.com/theakshay__/"
+              class="btn waves-effect waves-light"
+              style="background: #e1306c; border-radius: 10px"
+              >Instagram</a
+            >
+          </h5>
+        </div>
+        <div class="col s12 l4 center" style="padding: 50px">
+          <i class="large material-icons iconsst">account_circle</i>
+          <h5>
+            <a
+              href="https://twitter.com/thisIsAkshayz"
+              class="btn waves-effect waves-light"
+              style="background: #00acee; border-radius: 10px"
+              >Twitter</a
+            >
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="freviews">
+      <div class="section white center">
+        <h3 class="header">
+          Incredible India <i class="material-icons">favorite</i>
+        </h3>
+
+        <div class="carousel myrev" style="margin-bottom: 30px">
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <img
+                  src="img/india3.jpg"
+                  alt="crsl"
+                  height="300"
+                  width="auto"
+                />
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <img
+                  src="img/india2.jpg"
+                  alt="crsl"
+                  height="300"
+                  width="auto"
+                />
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <img
+                  src="img/india1.jpg"
+                  alt="crsl"
+                  height="300"
+                  width="auto"
+                />
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <img
+                  src="img/india4.jpg"
+                  alt="crsl"
+                  height="300"
+                  width="auto"
+                />
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <img
+                  src="img/india5.jpg"
+                  alt="crsl"
+                  height="300"
+                  width="auto"
+                />
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <img
+                  src="img/india6.jpg"
+                  alt="crsl"
+                  height="300"
+                  width="auto"
+                />
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <img
+                  src="img/india7.jpg"
+                  alt="crsl"
+                  height="300"
+                  width="auto"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-one">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h4 class="white-text">Contact us</h4>
+              <p class="grey-text">102, PD, Mumbai</p>
+              <p class="grey-text">+91999999999</p>
+            </div>
+            <div class="col l6 s12">
+              <h4 class="white-text">Social Media</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.instagram.com/theakshay__/"
+                    class="grey-text"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a href="https://twitter.com/thisIsAkshayz" class="grey-text"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/" class="grey-text"
+                    >Facebook</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-two">
+          <div class="col l6 s12">
+            <p class="white-text">&copy; www.backendsquad.com</p>
+          </div>
+          <div class="col l6 s12">
+            <p class="white-text">Designed by Backend Squad Team</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 id="info-modal-heading">Under Maintenance</h4>
+          <p id="info-modal-content">
+            Sorry ! All link are disabled as of now..
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- Jquery Link -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Materialize CSS JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="js/loader.js"></script>
+</html>
